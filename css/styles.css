@@ -406,6 +406,7 @@ ul {
 .portfolio-item .label {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    border-top: none;
 
     background: var(--primary-white-color);
 }
