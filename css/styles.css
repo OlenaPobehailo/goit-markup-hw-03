@@ -228,11 +228,11 @@ ul {
 
 .feature-list {
     display: flex;
+    gap: 30px;
 }
 
-.feature-list .item+.item {
-    margin-left: 30px;
-    /* ======================================== */
+.feature-list .item{
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 .feature-list .title {
